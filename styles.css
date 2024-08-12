@@ -1,5 +1,5 @@
 * {
-    border-box: 0;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,7 +8,7 @@
 .logo {
     background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
     background-size: cover;
-    width: 45vw;
+    width: 80vw;
     height: 100vh;
     color: white;
 }
@@ -20,6 +20,7 @@
 .sign-up {
     flex-flow: column;
     justify-content: center;
+    margin: 5vh;
 }
 
 input {
@@ -28,9 +29,15 @@ input {
 
 .form {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: column;
 }
 
+.formInput {
+    display: flex;
+    flex-flow: column;
+    margin-right: 10vh;
+    margin-bottom: 4vh;
+}
 
 .row {
     display: flex;
@@ -38,4 +45,19 @@ input {
 
 .header, .form {
     margin-bottom: 10vh;
+}
+
+h3 {
+    margin-bottom: 4vh;
+}
+
+span {
+    font-style:italic;
+}
+
+.odinLogo {
+    margin-top: 20vh;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
 }
