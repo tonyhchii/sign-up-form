@@ -6,9 +6,33 @@
 }
 
 img {
-    height: vh100;
+    height: 100vh;
 }
 
 .container {
+    display: flex;
+}
+
+.sign-up {
+    flex-flow: column;
+    width: 60vw;
+}
+
+input {
+    background: gray;
+}
+
+.form {
+    margin: 2vw;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.formInput {
+    display: flex;
+    margin: 4vw;
+}
+
+.row {
     display: flex;
 }
