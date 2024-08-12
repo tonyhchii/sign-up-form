@@ -5,8 +5,12 @@
     border: 0;
 }
 
-img {
+.logo {
+    background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+    width: 45vw;
     height: 100vh;
+    color: white;
 }
 
 .container {
@@ -15,7 +19,7 @@ img {
 
 .sign-up {
     flex-flow: column;
-    width: 60vw;
+    justify-content: center;
 }
 
 input {
@@ -23,16 +27,15 @@ input {
 }
 
 .form {
-    margin: 2vw;
     display: flex;
     flex-flow: wrap;
 }
 
-.formInput {
-    display: flex;
-    margin: 4vw;
-}
 
 .row {
     display: flex;
+}
+
+.header, .form {
+    margin-bottom: 10vh;
 }
