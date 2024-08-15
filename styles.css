@@ -76,6 +76,16 @@ span {
 .button{
     padding: 2vw;
 }
+
+input:invalid {
+    border: 3px solid red;
+}
+
+input:focus {
+    border: 3px solid blue;
+    box-shadow: 1px 2px 2px #596D48;
+}
+
 .createButton {
     padding: 10px 40px;
     border-radius: 5px;
